@@ -1,0 +1,23 @@
+.dark-mode-switcher .dark-mode-switcher__toggle {
+  width: 20px;
+  height: 14px;
+  /* margin-right: 0.75rem; */
+  @apply bg-slate-400;
+  @apply rounded-full relative cursor-pointer;
+}
+.dark-mode-switcher .dark-mode-switcher__toggle::before{
+  content: "";
+  width: 12px;
+  height: 12px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  @apply bg-white;
+  @apply absolute inset-y-0 my-auto rounded-full inset-x-2;
+}
+.dark-mode-switcher .dark-mode-switcher__toggle.dark-mode-switcher__toggle--active{
+  @apply bg-primary;
+}
+.dark-mode-switcher .dark-mode-switcher__toggle.dark-mode-switcher__toggle--active::before{
+  margin-left: -7px;
+  @apply bg-white;
+}

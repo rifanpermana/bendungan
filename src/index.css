@@ -163,12 +163,15 @@
     --color-text-base: #cbd4e1;
     --color-text-nav: #cbd4e1;
     --color-text-footer: #cbd4e1;
-    --color-text-muted: #49c1e9;
+    --color-text-muted: #4c6a8f;
     --color-text-inverted: #4f46e5;
     /* text-button */
     --color-button-accent: #384a60;
     --color-button-accent-hover: #4778f3;
     --color-button-muted: #546799;
+    /* ring */
+    --color-ring-theme: #4d6078;
+    --color-ring-active: #243346;
   }
   html {
     @apply h-full box-border;

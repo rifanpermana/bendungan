@@ -11,6 +11,7 @@ import Settings from "../components/settings"
 import Faqs from "../components/faqs"
 import Dams from "../components/dams/dam"
 import List from "../components/lists/list"
+import User from "../components/users"
 
 function Router() {
   const routes = [
@@ -41,6 +42,10 @@ function Router() {
         {
           path: "components",
           element: <List />,
+        },
+        {
+          path: "users",
+          element: <User />,
         },
       ],
     }
